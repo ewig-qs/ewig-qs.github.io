@@ -1,0 +1,160 @@
+* {box-sizing: border-box;}
+
+html, body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/banner-resize.jpg");
+    min-height: 100%;
+}
+
+
+.bgimg-2 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/about-image-resize.jpg");
+    min-height: 100%;
+}
+
+.w3-bar .w3-button {
+    padding: 16px;
+}
+
+body { 
+  margin: 0;
+
+}
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 9999;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+.banner-div {
+    margin: 0 auto;
+    margin-top: 86px;
+    z-index: -1;
+}
+
+.banner-center-text {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  /*transform: translate(-50%, -50%);*/
+  font-size: 60px;
+  font-weight: bold;
+ 
+}
+
+.banner {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-div {
+  position: relative;
+  z-index: -1;
+}
+
+.about-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-div .about-text {
+  position: absolute;
+  bottom: 40%;
+  background: rgba(0, 0, 0, 0); /* Black background with transparency */
+  color: #000;
+  width: 50%;
+  padding: 60px;
+}
+
+.main, .main2, .main3 {
+  float:left;
+  width:33%;
+  padding:0 20px;
+}
+
+.media-image {
+  display: block;
+  margin: auto;
+  padding: 12px 0px;
+  max-height: 100px;
+  max-height: 100px;
+}
+
+.media-body {
+    overflow: auto;
+    margin-top: 0;
+}
+
+/*
+@media only screen and (max-width:620px) {
+
+  .menu, .main, .main2, .main3, {
+    width:100%;
+  }
+*/
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+   .menu, .main, .main2, .main3, {
+    width:100%;
+  } 
+
+  .banner-div {
+    margin-top: 187px;
+  }
+
+}
