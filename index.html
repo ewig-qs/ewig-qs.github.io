@@ -1,82 +1,87 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html" ; charset="utf-8">
   <title>Shopeasy.pro</title>
   <link rel="stylesheet" href="./css/w3.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="./css/customized.css">
 </head>
+
 <body>
 
-<!--
-<div class="header">  
-  <a href="#default" class="logo">Shopeasy.pro</a>
-  <div class="header-right">
-    <a class="active" href="#home" id="home_a" onclick="active(this);">Home</a>
-    <a class="inactive" href="#about" id="about_a" onclick="active(this);">About</a>
-  </div>
-</div>
-
--->
-
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
     <div class="w3-bar w3-white w3-card" id="myNavbar">
-      <a href="#home" class="w3-bar-item w3-button w3-wide" style="font-weight: bolder">Shopeasypro</a>
+      <a href="/index.html#home" class="w3-bar-item w3-button w3-wide" style="font-weight: bolder">Shopeasypro</a>
       <!-- Right-sided navbar links -->
       <div class="w3-right w3-hide-small">
-        <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-th"></i> ABOUT</a>
-        <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+        <a href="/index.html#about" class="w3-bar-item w3-button">
+          <i class="fa fa-th"></i> ABOUT</a>
+        <a href="/index.html#contact" class="w3-bar-item w3-button">
+          <i class="fa fa-envelope"></i> CONTACT</a>
       </div>
       <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-  
+
       <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
         <i class="fa fa-bars"></i>
       </a>
     </div>
   </div>
-  
+
   <!-- Sidebar on small screens when clicking the menu icon -->
   <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16"><i class="fa fa-close"></i> Close</a>
-    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-th"></i> ABOUT</a>
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">
+      <i class="fa fa-close"></i> Close</a>
+    <a href="/index.html#about" onclick="w3_close()" class="w3-bar-item w3-button">
+      <i class="fa fa-th"></i> ABOUT</a>
+    <a href="/index.html#contact" onclick="w3_close()" class="w3-bar-item w3-button">
+      <i class="fa fa-envelope"></i> CONTACT</a>
   </nav>
 
-<!-- Header with full-height image -->
-<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <!-- Header with full-height image -->
+  <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
     <div class="w3-display-left w3-text-black" style="padding:48px">
-      <span class="w3-jumbo w3-hide-small">BEST <span style="color: rgb(255, 255, 255)">SOLUTION</span> PROVIDER</span><br>
-      <span class="w3-xxlarge w3-hide-large w3-hide-medium">BEST <span style="color: rgb(254, 255, 254)">SOLUTION</span> PROVIDER</span><br>
-      <span class="w3-xlarge" >Save valuable time for you.</span>
-      <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
-    </div> 
+      <span class="w3-jumbo w3-hide-small">BEST
+        <span style="color: rgb(255, 255, 255)">SOLUTION</span> PROVIDER</span>
+      <br>
+      <span class="w3-xxlarge w3-hide-large w3-hide-medium">BEST
+        <span style="color: rgb(254, 255, 254)">SOLUTION</span> PROVIDER</span>
+      <br>
+      <span class="w3-xlarge">Save valuable time for you.</span>
+      <p>
+        <a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a>
+      </p>
+    </div>
 
-</header>
+  </header>
 
 
-<!-- about us with full-height image -->
-<div class="bgimg-2 w3-display-container w3-grayscale-min" style="padding:128px 48px">
+  <!-- about us with full-height image -->
+  <div class="bgimg-2 w3-display-container w3-grayscale-min" style="padding:128px 48px">
     <div class="w3-row-padding">
-        <div class="w3-col m6">
-          <h3>About us</h3>
-          <p class="w3-large">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et Creativo has full ecommerce support, thanks to integration with the leading WooCommerce store builder plugin. 
-          Thanks to this ecommerce demo, launching a stylish online store with WordPress has never been easier. 
-          Although the Creativo ecommerce demo is setup for a fashion store, you can easily switch it to another type of product. 
-          Through the homepage slider and product carousels, you’ll be able to present your items in an enticing way that your audience will appreciate..</p>
-        </div>
+      <div class="w3-col m6">
+        <h3>About us</h3>
+        <p class="w3-large">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          <br>tempor incididunt ut labore et Creativo has full ecommerce support, thanks to integration with the leading WooCommerce
+          store builder plugin. Thanks to this ecommerce demo, launching a stylish online store with WordPress has never
+          been easier. Although the Creativo ecommerce demo is setup for a fashion store, you can easily switch it to another
+          type of product. Through the homepage slider and product carousels, you'll be able to present your items in an
+          enticing way that your audience will appreciate..</p>
       </div>
-</div>
+    </div>
+  </div>
 
 
 
-<div class="w3-container w3-gray w3-text-white" style="padding:16px 16px" id="about">
+  <div class="w3-container w3-gray w3-text-white" style="padding:16px 16px" id="about">
     <h3 class="w3-center">Awesome features</h3>
     <p class="w3-center w3-large">We are working hard to provide the best products</p>
   </div>
-  
+
   <!-- About Section -->
   <div class="w3-container" style="padding:12px 16px" id="about">
     <div class="w3-row-padding w3-center" style="margin-top:64px">
@@ -94,168 +99,136 @@
         <i class="fa fa-diamond w3-margin-bottom w3-xxlarge"></i>
         <p class="w3-large">Design</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-      </div>    
+      </div>
     </div>
     <div class="w3-row-padding w3-center" style="margin-top:64px">
-        <div class="w3-third w3-margin-bottom">
-          <i class="w3-jumbo" style="font-weight:bold">01</i>
-          <p class="w3-large">FREE SUPPORT</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-        </div>
-        <div class="w3-third w3-margin-bottom">
-            <i class="w3-jumbo" style="font-weight:bold">02</i>
-          <p class="w3-large">BEST PRICING</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-        </div>
-        <div class="w3-third w3-margin-bottom">
-            <i class="w3-jumbo" style="font-weight:bold">03</i>
-          <p class="w3-large">GET A QUOTE</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-        </div>    
-      </div>    
+      <div class="w3-third w3-margin-bottom">
+        <i class="w3-jumbo" style="font-weight:bold">01</i>
+        <p class="w3-large">FREE SUPPORT</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      </div>
+      <div class="w3-third w3-margin-bottom">
+        <i class="w3-jumbo" style="font-weight:bold">02</i>
+        <p class="w3-large">BEST PRICING</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      </div>
+      <div class="w3-third w3-margin-bottom">
+        <i class="w3-jumbo" style="font-weight:bold">03</i>
+        <p class="w3-large">GET A QUOTE</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      </div>
+    </div>
   </div>
 
 
-<!-- Promo Section - "We know design" -->
-<div class="w3-display-container w3-light-grey" style="margin-top:64px">
+  <!-- Promo Section - "We know design" -->
+  <div class="w3-display-container w3-light-grey" style="margin-top:64px">
     <div class="w3-row">
       <div class="w3-half m8 " style="padding:0px 0px">
         <img class="w3-image" src="./images/charts-compromised.jpg" alt="Charts">
       </div>
       <div class="w3-half m8" style="padding:128px 128px">
-          <h3>Our Best Services Include.</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.</p>
-          <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
+        <h3>Our Best Services Include.</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          <br>tempor incididunt ut labore et dolore.</p>
+        <p>
+          <a href="#work" class="w3-button w3-black">
+            <i class="fa fa-th"> </i>View Our Works</a>
+        </p>
       </div>
     </div>
-</div>
-
-<!-- Work Section -->
-<div class="w3-container" style="padding:64px 32px" id="work">
-  <div class="w3-display-container w3-margin-bottom">
-      <h3 class="w3-center">Amazing portfolio</h3>
   </div>
-  <div class="w3-row-padding w3-margin-top">
+
+  <!-- Work Section -->
+  <div class="w3-container" style="padding:64px 32px" id="work">
+    <div class="w3-display-container w3-margin-bottom">
+      <h3 class="w3-center">Amazing portfolio</h3>
+    </div>
+    <div class="w3-row-padding w3-margin-top">
       <div class="w3-third">
         <div class="w3-card">
-            <img src="./images/tech_mic.jpg" style="width:100%" alt="A microphone">
+          <img src="./images/tech_mic.jpg" style="width:100%" alt="A microphone">
           <div class="w3-container w3-center">
             <h5>Microphone</h5>
           </div>
         </div>
       </div>
-    
+
       <div class="w3-third">
         <div class="w3-card">
-            <img src="./images/tech_phone.jpg" style="width:100%" alt="A phone">
+          <img src="./images/tech_phone.jpg" style="width:100%" alt="A phone">
           <div class="w3-container w3-center">
             <h5>Monterosso</h5>
           </div>
         </div>
       </div>
-    
+
       <div class="w3-third">
         <div class="w3-card">
-            <img src="./images/tech_drone.jpg" style="width:100%" alt="A drone">
+          <img src="./images/tech_drone.jpg" style="width:100%" alt="A drone">
           <div class="w3-container w3-center">
             <h5>Vernazza</h5>
           </div>
         </div>
       </div>
-  </div>
-    
-  <div class="w3-row-padding w3-margin-top">
+    </div>
+
+    <div class="w3-row-padding w3-margin-top">
       <div class="w3-third">
         <div class="w3-card">
-            <img src="./images/tech_tablet.jpg" style="width:100%" alt="A tablet">
+          <img src="./images/tech_tablet.jpg" style="width:100%" alt="A tablet">
           <div class="w3-container w3-center">
             <h5>Manarola</h5>
           </div>
         </div>
       </div>
-    
+
       <div class="w3-third">
         <div class="w3-card">
-            <img src="./images/tech_camera.jpg" style="width:100%" alt="A camera">
+          <img src="./images/tech_camera.jpg" style="width:100%" alt="A camera">
           <div class="w3-container w3-center">
             <h5>Corniglia</h5>
           </div>
         </div>
       </div>
-    
+
       <div class="w3-third">
         <div class="w3-card">
-            <img src="./images/tech_typewriter.jpg" style="width:100%" alt="A typewriter">
+          <img src="./images/tech_typewriter.jpg" style="width:100%" alt="A typewriter">
           <div class="w3-container w3-center">
             <h5>Riomaggiore</h5>
           </div>
         </div>
       </div>
-  </div>  
-</div>    
+    </div>
+  </div>
 
-<div class="w3-display-container">
+  <div class="w3-display-container">
     <img class="w3-image" src="./images/team.jpg" alt="team" width="1600" height="400">
-</div>
+  </div>
 
-<!-- Contact Section -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <!-- Contact Section -->
+  <div class="w3-container w3-light-grey" style="padding:32px 16px" id="contact">
     <h3 class="w3-center">CONTACT</h3>
-    <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-row-padding" style="margin-top:32px">
       <div class="w3-center">
-        <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>HongKong, China</p>
-        <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +xxxxxxxx</p>
-        <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: Shopeasypro@mail.com</p>
+        <p>
+          <i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>HongKong, China</p>
+        <p>
+          <i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +xxxxxxxx</p>
+        <p>
+          <i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: info@Shopeasypro.net</p>
         <br>
       </div>
     </div>
-  </div>  
+  </div>
 
-  
-<script>
-function active(e) {
-  /*
-    e = e || window.event;
-    var src = e.target || e.srcElement;
-    */
-
-    if (e.id === "home_a") {
-        if (e.className === "inactive")
-        {
-          e.className = "active";
-          x = document.getElementById("about_a");
-          x.className = "inactive";
-          document.body.scrollTop = 0;
-          document.documentElement.scrollTop = 0;
-        }
-    }
-    else if (e.id === "about_a") {
-        if (e.className === "inactive")
-        {
-          e.className = "active";
-          x = document.getElementById("home_a");
-          x.className = "inactive";
-        }
-    }
-}
-
-
-// Toggle between showing and hiding the sidebar when clicking the menu icon
-var mySidebar = document.getElementById("mySidebar");
-
-function w3_open() {
-    if (mySidebar.style.display === 'block') {
-        mySidebar.style.display = 'none';
-    } else {
-        mySidebar.style.display = 'block';
-    }
-}
-
-// Close the sidebar with the close button
-function w3_close() {
-    mySidebar.style.display = "none";
-}
-
-</script>
+  <script src="./js/common.js"></script>
+  <!-- Footer -->
+  <div class="w3-container w3-padding-16 w3-center w3-light-grey w3-large">
+    <a href="#" style="text-decoration:none;">&copy;&nbsp;2018 Shopeasypro.net</a> |
+    <a href="/privacy.html">Privacy</a> |
+    <a href="/terms_of_use.html">Terms of Use</a>
 </body>
+
 </html>
